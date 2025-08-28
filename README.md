@@ -1,1 +1,1 @@
-# smart-nutrition-api-2
+# NutriGuide API
