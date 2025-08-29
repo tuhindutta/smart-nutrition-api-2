@@ -32,11 +32,15 @@ class LLM:
     def build_prompt(self, user_input, formatted_chat_history):
         today_date = str(datetime.datetime.now().strftime('%B %d, %Y'))
         # formatted_chat_history =  formatted_chat_history+'\n\n'
-        system_prompt = f"""You are a nutrition health expert. Your job is to suggest food values and options based on the health status of the user provided below.
-Answer queries with respect to the food products' options with their nutrition values provided below suitable for the user's health.
+        system_prompt = f"""You are a nutrition and health expert. Your role is to suggest food choices based on the user’s health status and the nutrition values provided below.
+When answering:
+    - Focus only on the foods listed and the user’s health needs.
+    - Be concise and to the point — do not repeat the full health profile or nutrition details every time.
+    - Give short reasoning only when necessary to explain the choice.
+    - Avoid long paragraphs or unnecessary elaboration.
 Date: {today_date}
 health status: {self.health_status}
-food products: {self.food_products}
+food nutrition values: {self.food_products}
 """
         messages = [{"role": "system", "content": system_prompt}]
         # messages.append({'history': chat_history})import datetime
