@@ -1,4 +1,4 @@
-# Future Prospects & To-Do Document
+# Future Prospects & To-Do Document to create a AI powered Nutrition guide app
 
 ## Project Vision
 
