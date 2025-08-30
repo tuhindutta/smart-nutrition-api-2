@@ -8,6 +8,10 @@ Develop a full-fledged software application with a user-friendly UI that integra
 
 ## To-Do Items
 
+### Reference:
+1. [Smart Nutrition API](https://techtrail.tuhindutta.com/testing-smart-nutrition-api)
+2. [Nutriguide API](https://techtrail.tuhindutta.com/testing-the-nutriguide-api)
+
 ### 1. Product Management
 
 **Objective:** Allow users to seamlessly manage their product list by adding, editing, or removing items through images or manual input.
