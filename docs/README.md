@@ -39,5 +39,7 @@ nutriguide/
 
 ## 📈 [Future Prospects](https://tuhindutta.github.io/nutriguide/future-prospect)
 
+---
+
 ## 🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes. For more details and updates, visit the [GitHub Repository](https://github.com/tuhindutta/nutriguide).
